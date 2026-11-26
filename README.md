@@ -145,22 +145,9 @@ Capstone ở cuối lộ trình: tổng hợp sản phẩm qua bảy nhóm thàn
 
 ## 4. Toolkit
 
-Toolkit gom các công cụ theo đúng bảy nhóm kỹ năng ở mục 3, mỗi nhóm giữ 1–2 công cụ chính. Công cụ phụ thuộc ngôn ngữ chính được chốt sau khi giải quyết mục 8.
+Danh sách công cụ đầy đủ nằm trong thư mục [toolkit/](toolkit/), chia theo đúng bảy nhóm kỹ năng ở mục 3. Mỗi công cụ kèm mục đích và link tài liệu chính thức. Thư mục này cũng chứa checklist cài đặt môi trường, ghi chú cách dùng từng công cụ (`toolkit/notes/`) và file cấu hình dùng lại được (`toolkit/configs/`).
 
-| Nhóm | Công cụ | Mục đích |
-| --- | --- | --- |
-| Xuyên suốt | VS Code | Editor chính |
-| Xuyên suốt | Git, GitHub | Quản lý phiên bản, lưu repo học tập |
-| Xuyên suốt | Claude Code | AI coding assistant |
-| 1. Nền tảng | `strace`, `htop`, `tcpdump` | Quan sát tiến trình, bộ nhớ và gói tin |
-| 2. Lập trình | Ngôn ngữ chính, debugger, test framework | Viết code, tìm lỗi, kiểm thử; theo lựa chọn ở mục 8 |
-| 3. Backend | PostgreSQL, Redis | Database quan hệ, cache và queue |
-| 3. Backend | OpenAPI, Bruno | Đặc tả và gọi thử API |
-| 4. System design | Excalidraw, Mermaid | Vẽ sơ đồ kiến trúc |
-| 5. Cloud và DevOps | Docker, kind, Terraform | Đóng gói, chạy Kubernetes cục bộ, khai báo hạ tầng |
-| 5. Cloud và DevOps | GitHub Actions, Prometheus, Grafana | CI/CD, metrics, dashboard và cảnh báo |
-| 6. Bảo mật | Trivy, OWASP ZAP | Quét lỗ hổng image, dependency và ứng dụng web |
-| 7. AI engineering | Claude API, pgvector, MCP SDK | Gọi LLM, lưu embedding, viết MCP server |
+Công cụ chính theo nhóm: VS Code, Git và Claude Code dùng xuyên suốt; PostgreSQL và Redis cho backend; Docker, kind, Terraform và GitHub Actions cho cloud và DevOps; Trivy cho bảo mật; Claude API, pgvector và MCP SDK cho AI engineering.
 
 ## 5. Cấu trúc repo
 
@@ -171,6 +158,7 @@ Mỗi nhóm kỹ năng một thư mục, đánh số theo sơ đồ ở mục 1.
 ├── README.md
 ├── assets/           # Ảnh dùng trong README (roadmap.svg)
 ├── scripts/          # Script sinh sơ đồ roadmap
+├── toolkit/          # Danh sách công cụ, checklist cài đặt, ghi chú
 ├── 01-cs-foundations/
 │   ├── notes/        # Ghi chép theo chủ đề
 │   ├── exercises/    # Bài tập
