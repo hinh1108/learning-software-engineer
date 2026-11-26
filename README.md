@@ -12,6 +12,12 @@ Học từ trên xuống theo đường nối trong Hình 1. Sau nhóm 3, ba nh�
 
 Hình 1. Roadmap bảy nhóm kỹ năng. Màu xanh dương là nền tảng, xanh lá là lõi backend, tím là các nhóm học song song, cam là AI engineering.
 
+Sơ đồ được sinh bằng script [scripts/gen_roadmap.py](scripts/gen_roadmap.py), chỉ dùng thư viện chuẩn của Python 3. Để thêm hoặc đổi chủ đề, sửa danh sách trong script rồi chạy lại:
+
+```bash
+python3 scripts/gen_roadmap.py
+```
+
 ## 2. Mục tiêu
 
 Mỗi mục tiêu gắn với một nhóm kỹ năng và có ngưỡng đạt để tự kiểm. Tất cả mục tiêu có hạn 31/12/2027.
@@ -147,6 +153,8 @@ Mỗi nhóm kỹ năng một thư mục, đánh số theo sơ đồ ở mục 1.
 ```text
 .
 ├── README.md
+├── assets/           # Ảnh dùng trong README (roadmap.svg)
+├── scripts/          # Script sinh sơ đồ roadmap
 ├── 01-cs-foundations/
 │   ├── notes/        # Ghi chép theo chủ đề
 │   ├── exercises/    # Bài tập
