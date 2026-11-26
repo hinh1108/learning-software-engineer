@@ -147,7 +147,9 @@ Capstone ở cuối lộ trình: tổng hợp sản phẩm qua bảy nhóm thàn
 
 Danh sách công cụ đầy đủ nằm trong thư mục [toolkit/](toolkit/), chia theo đúng bảy nhóm kỹ năng ở mục 3. Mỗi công cụ kèm mục đích và link tài liệu chính thức. Thư mục này cũng chứa checklist cài đặt môi trường, ghi chú cách dùng từng công cụ (`toolkit/notes/`) và file cấu hình dùng lại được (`toolkit/configs/`).
 
-Công cụ chính theo nhóm: VS Code, Git và Claude Code dùng xuyên suốt; PostgreSQL và Redis cho backend; Docker, kind, Terraform và GitHub Actions cho cloud và DevOps; Trivy cho bảo mật; Claude API, pgvector và MCP SDK cho AI engineering.
+Công cụ chính theo nhóm: VS Code, Git, Claude Code và GitNexus dùng xuyên suốt; PostgreSQL và Redis cho backend; Docker, kind, Terraform và GitHub Actions cho cloud và DevOps; Trivy cho bảo mật; Claude API, pgvector và MCP SDK cho AI engineering.
+
+Công cụ cần học sâu có khóa training riêng trong thư mục [training/](training/). Khóa đầu tiên là [GitNexus](training/gitnexus/): index codebase thành knowledge graph, đánh giá tác động trước khi sửa code, review pull request và tích hợp vào workflow cùng AI coding assistant.
 
 ## 5. Cấu trúc repo
 
@@ -159,6 +161,7 @@ Mỗi nhóm kỹ năng một thư mục, đánh số theo sơ đồ ở mục 1.
 ├── assets/           # Ảnh dùng trong README (roadmap.svg)
 ├── scripts/          # Script sinh sơ đồ roadmap
 ├── toolkit/          # Danh sách công cụ, checklist cài đặt, ghi chú
+├── training/         # Khóa học chuyên sâu cho từng công cụ (GitNexus, ...)
 ├── 01-cs-foundations/
 │   ├── notes/        # Ghi chép theo chủ đề
 │   ├── exercises/    # Bài tập

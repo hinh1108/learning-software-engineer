@@ -30,6 +30,7 @@ Mỗi bảng ứng với một nhóm kỹ năng; cột cuối trỏ tới trang 
 | Git | Quản lý phiên bản | [git-scm.com](https://git-scm.com) |
 | GitHub | Lưu repo, pull request, review | [docs.github.com](https://docs.github.com) |
 | Claude Code | AI coding assistant | [Claude Code docs](https://docs.claude.com/en/docs/claude-code/overview) |
+| GitNexus | Index codebase thành knowledge graph cho AI agent; xem [khóa training](../training/gitnexus/) | [github.com/abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) |
 
 ### 2.2 Nền tảng khoa học máy tính
 
@@ -93,7 +94,7 @@ Mỗi bảng ứng với một nhóm kỹ năng; cột cuối trỏ tới trang 
 
 Đánh dấu khi công cụ đã cài và chạy được lệnh kiểm tra phiên bản. Cài theo nhóm đang học, không cần cài hết từ đầu.
 
-- [ ] Xuyên suốt: VS Code, Git, tài khoản GitHub, Claude Code
+- [ ] Xuyên suốt: VS Code, Git, tài khoản GitHub, Claude Code, GitNexus
 - [ ] Nền tảng: `strace`, `htop`, `tcpdump`
 - [ ] Lập trình: ngôn ngữ chính, debugger, test framework
 - [ ] Backend: PostgreSQL, Redis, Bruno
