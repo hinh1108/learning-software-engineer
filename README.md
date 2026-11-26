@@ -6,91 +6,9 @@ Repo này ghi lại lộ trình tự học kỹ sư phần mềm trong năm 2027
 
 Học theo chiều mũi tên trong Hình 1. Sau nhóm 3, ba nhóm 4, 5 và 6 có thể học song song; khối "Xuyên suốt" được áp dụng ở mọi nhóm.
 
-```mermaid
-flowchart TB
-    START(["Bắt đầu 2027"])
-
-    subgraph G1["1 · Nền tảng khoa học máy tính"]
-        direction LR
-        g1a["Cấu trúc dữ liệu<br/>và giải thuật"]
-        g1b["Hệ điều hành"]
-        g1c["Mạng máy tính"]
-    end
-
-    subgraph G2["2 · Ngôn ngữ và kỹ thuật lập trình"]
-        direction LR
-        g2a["Ngôn ngữ chính"]
-        g2b["Clean code<br/>design pattern"]
-        g2c["Kiểm thử"]
-    end
-
-    subgraph G3["3 · Backend và dữ liệu"]
-        direction LR
-        g3a["Thiết kế API"]
-        g3b["SQL và NoSQL"]
-        g3c["Cache, queue"]
-    end
-
-    subgraph G4["4 · System design"]
-        direction LR
-        g4a["Khả năng mở rộng"]
-        g4b["Tính nhất quán"]
-        g4c["Đánh đổi kiến trúc"]
-    end
-
-    subgraph G5["5 · Cloud và DevOps"]
-        direction LR
-        g5a["Docker, Kubernetes"]
-        g5b["Terraform, CI/CD"]
-        g5c["Observability"]
-    end
-
-    subgraph G6["6 · Bảo mật ứng dụng"]
-        direction LR
-        g6a["OWASP Top 10"]
-        g6b["Xác thực, phân quyền"]
-        g6c["Quản lý secret"]
-    end
-
-    subgraph G7["7 · AI engineering"]
-        direction LR
-        g7a["LLM, tool use"]
-        g7b["RAG"]
-        g7c["Agent, MCP"]
-        g7d["Eval"]
-    end
-
-    subgraph X["Xuyên suốt"]
-        direction LR
-        xa["Git, Linux shell"]
-        xb["AI coding assistant"]
-        xc["Ghi chép và tự đánh giá"]
-    end
-
-    DONE(["Capstone cuối năm"])
-
-    START --> G1 --> G2 --> G3
-    G3 --> G4 & G5 & G6
-    G4 & G5 & G6 --> G7 --> DONE
-    X -.-> G2
-
-    classDef topic fill:#ffffff,stroke:#1F4E79,stroke-width:1px,color:#1F2933
-    classDef cross fill:#ffffff,stroke:#B7791F,stroke-width:1px,color:#1F2933
-    classDef milestone fill:#1F4E79,stroke:#1F4E79,color:#ffffff,font-weight:bold
-
-    class g1a,g1b,g1c,g2a,g2b,g2c,g3a,g3b,g3c,g4a,g4b,g4c,g5a,g5b,g5c,g6a,g6b,g6c,g7a,g7b,g7c,g7d topic
-    class xa,xb,xc cross
-    class START,DONE milestone
-
-    style G1 fill:#DCEAF7,stroke:#1F4E79,color:#1F4E79
-    style G2 fill:#DCEAF7,stroke:#1F4E79,color:#1F4E79
-    style G3 fill:#D5F0E3,stroke:#2F7D5B,color:#1E5A40
-    style G4 fill:#E8E1F5,stroke:#5B4B8A,color:#3F3366
-    style G5 fill:#E8E1F5,stroke:#5B4B8A,color:#3F3366
-    style G6 fill:#E8E1F5,stroke:#5B4B8A,color:#3F3366
-    style G7 fill:#FBE3D6,stroke:#B5532A,color:#8A3B1C
-    style X fill:#FDF3D8,stroke:#B7791F,color:#7A4E0E,stroke-dasharray:5 5
-```
+<p align="center">
+  <img src="assets/roadmap.svg" alt="Roadmap bảy nhóm kỹ năng kỹ sư phần mềm 2027" width="100%">
+</p>
 
 Hình 1. Roadmap bảy nhóm kỹ năng. Màu xanh dương là nền tảng, xanh lá là lõi backend, tím là các nhóm học song song, cam là AI engineering.
 

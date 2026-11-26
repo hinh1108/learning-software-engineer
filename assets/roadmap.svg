@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1275" width="1000" height="1275" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<rect width="1000" height="1275" rx="16" fill="#FFFFFF"/>
+<text x="500" y="52" text-anchor="middle" font-size="28" font-weight="700" fill="#1F2933">Learning Software Engineer 2027</text>
+<text x="500" y="80" text-anchor="middle" font-size="15" fill="#616E7C">Roadmap theo nhóm kỹ năng</text>
+<line x1="500" y1="130" x2="500" y2="560" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="580" x2="820" y2="580" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="580" x2="180" y2="604" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="500" y1="560" x2="500" y2="604" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="820" y1="580" x2="820" y2="604" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="858" x2="180" y2="890" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="500" y1="858" x2="500" y2="890" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="820" y1="858" x2="820" y2="890" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="180" y1="890" x2="820" y2="890" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="500" y1="890" x2="500" y2="1050" stroke="#52606D" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="405.0" y="110.0" width="190" height="40" rx="20.0" fill="#1F4E79" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="500" y="135.4" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">Bắt đầu 2027</text>
+<line x1="330" y1="225" x2="280" y2="203" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="60.0" y="186.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="170" y="208.04" text-anchor="middle" font-size="14" fill="#1F2933">Cấu trúc dữ liệu</text>
+<line x1="330" y1="225" x2="280" y2="247" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="60.0" y="230.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="170" y="252.04" text-anchor="middle" font-size="14" fill="#1F2933">Giải thuật</text>
+<line x1="670" y1="225" x2="720" y2="203" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="720.0" y="186.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="830" y="208.04" text-anchor="middle" font-size="14" fill="#1F2933">Hệ điều hành</text>
+<line x1="670" y1="225" x2="720" y2="247" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="720.0" y="230.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="830" y="252.04" text-anchor="middle" font-size="14" fill="#1F2933">Mạng máy tính</text>
+<rect x="330.0" y="199.0" width="340" height="52" rx="10" fill="#DCEAF7" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="500" y="230.76" text-anchor="middle" font-size="16" font-weight="700" fill="#1F4E79">1 · Nền tảng khoa học máy tính</text>
+<line x1="330" y1="345" x2="280" y2="323" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="60.0" y="306.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="170" y="328.04" text-anchor="middle" font-size="14" fill="#1F2933">Ngôn ngữ chính</text>
+<line x1="330" y1="345" x2="280" y2="367" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="60.0" y="350.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="170" y="372.04" text-anchor="middle" font-size="14" fill="#1F2933">Clean code</text>
+<line x1="670" y1="345" x2="720" y2="323" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="720.0" y="306.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="830" y="328.04" text-anchor="middle" font-size="14" fill="#1F2933">Design pattern</text>
+<line x1="670" y1="345" x2="720" y2="367" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="720.0" y="350.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="830" y="372.04" text-anchor="middle" font-size="14" fill="#1F2933">Kiểm thử</text>
+<rect x="330.0" y="319.0" width="340" height="52" rx="10" fill="#DCEAF7" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="500" y="350.76" text-anchor="middle" font-size="16" font-weight="700" fill="#1F4E79">2 · Ngôn ngữ và kỹ thuật lập trình</text>
+<line x1="330" y1="465" x2="280" y2="443" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="60.0" y="426.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#2F7D5B" stroke-width="1.5"/>
+<text x="170" y="448.04" text-anchor="middle" font-size="14" fill="#1F2933">Thiết kế API</text>
+<line x1="330" y1="465" x2="280" y2="487" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="60.0" y="470.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#2F7D5B" stroke-width="1.5"/>
+<text x="170" y="492.04" text-anchor="middle" font-size="14" fill="#1F2933">SQL và NoSQL</text>
+<line x1="670" y1="465" x2="720" y2="443" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="720.0" y="426.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#2F7D5B" stroke-width="1.5"/>
+<text x="830" y="448.04" text-anchor="middle" font-size="14" fill="#1F2933">Cache, queue</text>
+<line x1="670" y1="465" x2="720" y2="487" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="720.0" y="470.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#2F7D5B" stroke-width="1.5"/>
+<text x="830" y="492.04" text-anchor="middle" font-size="14" fill="#1F2933">Xác thực cơ bản</text>
+<rect x="330.0" y="439.0" width="340" height="52" rx="10" fill="#D5F0E3" stroke="#2F7D5B" stroke-width="1.5"/>
+<text x="500" y="470.76" text-anchor="middle" font-size="16" font-weight="700" fill="#1E5A40">3 · Backend và dữ liệu</text>
+<text x="512" y="552" text-anchor="start" font-size="12" fill="#616E7C" font-style="italic">học song song</text>
+<rect x="40" y="604" width="280" height="254" rx="14" fill="#E8E1F5" fill-opacity="0.45" stroke="#5B4B8A" stroke-width="1.2" stroke-dasharray="4 4"/>
+<rect x="55.0" y="614.0" width="250" height="52" rx="10" fill="#E8E1F5" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="180" y="645.76" text-anchor="middle" font-size="16" font-weight="700" fill="#3F3366">4 · System design</text>
+<rect x="65.0" y="680.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="180" y="701.04" text-anchor="middle" font-size="14" fill="#1F2933">Khả năng mở rộng</text>
+<rect x="65.0" y="724.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="180" y="745.04" text-anchor="middle" font-size="14" fill="#1F2933">Dữ liệu phân tán</text>
+<rect x="65.0" y="768.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="180" y="789.04" text-anchor="middle" font-size="14" fill="#1F2933">Nhất quán, chịu lỗi</text>
+<rect x="65.0" y="812.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="180" y="833.04" text-anchor="middle" font-size="14" fill="#1F2933">Ghi quyết định (ADR)</text>
+<rect x="360" y="604" width="280" height="254" rx="14" fill="#E8E1F5" fill-opacity="0.45" stroke="#5B4B8A" stroke-width="1.2" stroke-dasharray="4 4"/>
+<rect x="375.0" y="614.0" width="250" height="52" rx="10" fill="#E8E1F5" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="500" y="645.76" text-anchor="middle" font-size="16" font-weight="700" fill="#3F3366">5 · Cloud và DevOps</text>
+<rect x="385.0" y="680.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="500" y="701.04" text-anchor="middle" font-size="14" fill="#1F2933">Docker, Kubernetes</text>
+<rect x="385.0" y="724.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="500" y="745.04" text-anchor="middle" font-size="14" fill="#1F2933">Terraform (IaC)</text>
+<rect x="385.0" y="768.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="500" y="789.04" text-anchor="middle" font-size="14" fill="#1F2933">CI/CD</text>
+<rect x="385.0" y="812.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="500" y="833.04" text-anchor="middle" font-size="14" fill="#1F2933">Observability</text>
+<rect x="680" y="604" width="280" height="254" rx="14" fill="#E8E1F5" fill-opacity="0.45" stroke="#5B4B8A" stroke-width="1.2" stroke-dasharray="4 4"/>
+<rect x="695.0" y="614.0" width="250" height="52" rx="10" fill="#E8E1F5" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="820" y="645.76" text-anchor="middle" font-size="16" font-weight="700" fill="#3F3366">6 · Bảo mật ứng dụng</text>
+<rect x="705.0" y="680.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="820" y="701.04" text-anchor="middle" font-size="14" fill="#1F2933">OWASP Top 10</text>
+<rect x="705.0" y="724.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="820" y="745.04" text-anchor="middle" font-size="14" fill="#1F2933">OAuth 2.0, OIDC</text>
+<rect x="705.0" y="768.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="820" y="789.04" text-anchor="middle" font-size="14" fill="#1F2933">Quản lý secret</text>
+<rect x="705.0" y="812.0" width="230" height="32" rx="16.0" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="1.5"/>
+<text x="820" y="833.04" text-anchor="middle" font-size="14" fill="#1F2933">Quét lỗ hổng</text>
+<line x1="330" y1="950" x2="280" y2="928" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="60.0" y="911.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#B5532A" stroke-width="1.5"/>
+<text x="170" y="933.04" text-anchor="middle" font-size="14" fill="#1F2933">LLM, tool use</text>
+<line x1="330" y1="950" x2="280" y2="972" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="60.0" y="955.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#B5532A" stroke-width="1.5"/>
+<text x="170" y="977.04" text-anchor="middle" font-size="14" fill="#1F2933">RAG</text>
+<line x1="670" y1="950" x2="720" y2="928" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="720.0" y="911.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#B5532A" stroke-width="1.5"/>
+<text x="830" y="933.04" text-anchor="middle" font-size="14" fill="#1F2933">Agent, MCP</text>
+<line x1="670" y1="950" x2="720" y2="972" stroke="#9AA5B1" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+<rect x="720.0" y="955.0" width="220" height="34" rx="17.0" fill="#FFFFFF" stroke="#B5532A" stroke-width="1.5"/>
+<text x="830" y="977.04" text-anchor="middle" font-size="14" fill="#1F2933">Eval</text>
+<rect x="330.0" y="924.0" width="340" height="52" rx="10" fill="#FBE3D6" stroke="#B5532A" stroke-width="1.5"/>
+<text x="500" y="955.76" text-anchor="middle" font-size="16" font-weight="700" fill="#8A3B1C">7 · AI engineering</text>
+<rect x="380.0" y="1028.0" width="240" height="44" rx="22.0" fill="#1F4E79" stroke="#1F4E79" stroke-width="1.5"/>
+<text x="500" y="1055.76" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Capstone cuối năm</text>
+<rect x="60" y="1112" width="880" height="122" rx="14" fill="#FDF3D8" stroke="#B7791F" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="500" y="1144" text-anchor="middle" font-size="15" font-weight="700" fill="#7A4E0E">Xuyên suốt mọi nhóm</text>
+<rect x="100.0" y="1172.0" width="240" height="36" rx="18.0" fill="#FFFFFF" stroke="#B7791F" stroke-width="1.5"/>
+<text x="220" y="1195.04" text-anchor="middle" font-size="14" fill="#1F2933">Git, Linux shell</text>
+<rect x="380.0" y="1172.0" width="240" height="36" rx="18.0" fill="#FFFFFF" stroke="#B7791F" stroke-width="1.5"/>
+<text x="500" y="1195.04" text-anchor="middle" font-size="14" fill="#1F2933">AI coding assistant</text>
+<rect x="660.0" y="1172.0" width="240" height="36" rx="18.0" fill="#FFFFFF" stroke="#B7791F" stroke-width="1.5"/>
+<text x="780" y="1195.04" text-anchor="middle" font-size="14" fill="#1F2933">Ghi chép, tự đánh giá</text>
+</svg>
