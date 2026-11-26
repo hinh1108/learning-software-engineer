@@ -4,7 +4,7 @@ Repo này ghi lại lộ trình tự học kỹ sư phần mềm trong năm 2027
 
 ## 1. Sơ đồ roadmap
 
-Học theo chiều mũi tên trong Hình 1. Sau nhóm 3, ba nhóm 4, 5 và 6 có thể học song song; khối "Xuyên suốt" được áp dụng ở mọi nhóm.
+Học từ trên xuống theo đường nối trong Hình 1. Sau nhóm 3, ba nhóm 4, 5 và 6 có thể học song song; khối "Xuyên suốt" được áp dụng ở mọi nhóm.
 
 <p align="center">
   <img src="assets/roadmap.svg" alt="Roadmap bảy nhóm kỹ năng kỹ sư phần mềm 2027" width="100%">
