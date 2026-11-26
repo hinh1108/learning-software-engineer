@@ -1,6 +1,6 @@
 # Learning Software Engineer 2027
 
-Repo này ghi lại lộ trình tự học kỹ sư phần mềm trong năm 2027. Lộ trình chia thành bảy nhóm kỹ năng, đi từ nền tảng khoa học máy tính tới AI engineering. Mỗi nhóm có kiến thức tiên quyết, danh sách nội dung để đánh dấu tiến độ và một project. Các project nối tiếp nhau trên cùng một sản phẩm, nên cuối năm repo có một hệ thống chạy được kèm ghi chép, đủ dùng làm portfolio khi phỏng vấn.
+Repo này tổng hợp các nhóm kỹ năng mà một kỹ sư phần mềm cần nắm vững cho năm 2027, trình bày dưới dạng roadmap tự học. Nền tảng khoa học máy tính và backend vẫn là phần cốt lõi. Bên cạnh đó, roadmap đưa vào các kỹ năng được kỳ vọng ngày càng nhiều: vận hành trên cloud, bảo mật ứng dụng, xây ứng dụng có dùng LLM và làm việc cùng AI coding assistant. Mỗi nhóm có kiến thức tiên quyết, danh sách nội dung để đánh dấu tiến độ và một project. Các project nối tiếp nhau trên cùng một sản phẩm, nên khi đi hết lộ trình, repo có một hệ thống chạy được kèm ghi chép, đủ dùng làm portfolio khi phỏng vấn.
 
 ## 1. Sơ đồ roadmap
 
@@ -20,7 +20,7 @@ python3 scripts/gen_roadmap.py
 
 ## 2. Mục tiêu
 
-Mỗi mục tiêu gắn với một nhóm kỹ năng và có ngưỡng đạt để tự kiểm. Tất cả mục tiêu có hạn 31/12/2027.
+Mỗi mục tiêu gắn với một nhóm kỹ năng và có ngưỡng đạt để tự kiểm khi hoàn thành nhóm đó.
 
 | Mã | Nhóm | Mục tiêu | Ngưỡng đạt |
 | --- | --- | --- | --- |
@@ -30,7 +30,7 @@ Mỗi mục tiêu gắn với một nhóm kỹ năng và có ngưỡng đạt đ
 | G4 | 5 | Deploy và vận hành service trên cloud | Service chạy trên cloud, có dashboard monitoring và ít nhất 1 runbook xử lý sự cố |
 | G5 | 6 | Bảo vệ được service đã xây | Không còn lỗ hổng mức HIGH hoặc CRITICAL khi quét bằng Trivy; đã rà theo OWASP Top 10 |
 | G6 | 7 | Xây tính năng có dùng LLM | Tính năng RAG hoặc agent chạy trong service, kèm bộ eval tự động từ 50 case |
-| G7 | Xuyên suốt | Duy trì thói quen học đều | Ít nhất 1 commit ghi chép hoặc code trong 48/52 tuần |
+| G7 | Xuyên suốt | Duy trì thói quen học đều | Ít nhất 1 commit ghi chép hoặc code mỗi tuần trong suốt lộ trình |
 
 ## 3. Nhóm kỹ năng
 
@@ -125,7 +125,7 @@ Các kỹ năng này không có thời điểm học riêng mà được dùng t
 - [ ] Làm việc với AI coding assistant: viết đặc tả rõ, review code do AI sinh, giữ chất lượng test
 - [ ] Ghi chép sau mỗi chủ đề và tự đánh giá sau mỗi nhóm
 
-Capstone cuối năm: tổng hợp sản phẩm qua bảy nhóm thành một bản demo, kèm bài viết mô tả kiến trúc và các bài học rút ra.
+Capstone ở cuối lộ trình: tổng hợp sản phẩm qua bảy nhóm thành một bản demo, kèm bài viết mô tả kiến trúc và các bài học rút ra.
 
 ## 4. Toolkit
 
@@ -189,6 +189,6 @@ Mỗi nhóm kỹ năng một thư mục, đánh số theo sơ đồ ở mục 1.
 
 ## 8. Vấn đề mở
 
-- [ ] Chọn ngôn ngữ lập trình chính cho cả năm (ví dụ Go, Java, Python hay TypeScript). Người quyết định: chủ repo.
+- [ ] Chọn ngôn ngữ lập trình chính cho toàn bộ lộ trình (ví dụ Go, Java, Python hay TypeScript). Người quyết định: chủ repo.
 - [ ] Xác định số giờ học mỗi tuần để kiểm tra các ngưỡng ở mục 2 có khả thi không. Người quyết định: chủ repo.
 - [ ] Chọn nhà cung cấp cloud cho nhóm 5 (AWS, GCP hay Azure), tính cả chi phí free tier. Người quyết định: chủ repo.

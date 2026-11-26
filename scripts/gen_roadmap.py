@@ -27,7 +27,7 @@ a = s.append
 a(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" font-family="{FONT}">')
 a(f'<rect width="{W}" height="{H}" rx="16" fill="#FFFFFF"/>')
 a(f'<text x="500" y="52" text-anchor="middle" font-size="28" font-weight="700" fill="#1F2933">Learning Software Engineer 2027</text>')
-a(f'<text x="500" y="80" text-anchor="middle" font-size="15" fill="#616E7C">Roadmap theo nhóm kỹ năng</text>')
+a(f'<text x="500" y="80" text-anchor="middle" font-size="15" fill="#616E7C">Các nhóm kỹ năng kỹ sư phần mềm cần nắm vững cho năm 2027</text>')
 LINE = '#52606D'
 def line(x1,y1,x2,y2,dash=False,color=LINE,w=2.5):
     d = ' stroke-dasharray="5 5"' if dash else ''
@@ -51,7 +51,7 @@ for x in (180,500,820): line(x,858,x,890)
 line(180,890,820,890); line(500,890,500,1050)
 
 # start
-pill(500,130,190,40,'Bắt đầu 2027','#1F4E79','#1F4E79','#FFFFFF',size=15,bold=True)
+pill(500,130,160,40,'Bắt đầu','#1F4E79','#1F4E79','#FFFFFF',size=15,bold=True)
 
 def spine_group(y,title,kind,left,right):
     for i,t in enumerate(left):
@@ -81,7 +81,7 @@ for cx,title,tops in cols:
         topic(cx,696+44*i,t,'par',w=230,h=32)
 
 spine_group(950,'7 · AI engineering','ai',['LLM, tool use','RAG'],['Agent, MCP','Eval'])
-pill(500,1050,240,44,'Capstone cuối năm','#1F4E79','#1F4E79','#FFFFFF',size=16,bold=True)
+pill(500,1050,280,44,'Cuối lộ trình · Capstone','#1F4E79','#1F4E79','#FFFFFF',size=16,bold=True)
 
 f,st,c = C['x']
 a(f'<rect x="60" y="1112" width="880" height="122" rx="14" fill="{f}" stroke="{st}" stroke-width="1.5" stroke-dasharray="6 5"/>')
