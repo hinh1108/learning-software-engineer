@@ -24,7 +24,7 @@ Lộ trình đi từ nền tảng lên ứng dụng; giai đoạn sau dùng lạ
 - Hệ điều hành: tiến trình, luồng, bộ nhớ, hệ thống file, đồng bộ hóa.
 - Mạng máy tính: TCP/IP, HTTP/HTTPS, DNS, TLS.
 - Công cụ: Git, Linux shell, editor, debugger.
-- Một ngôn ngữ chính, dùng cho cả năm (xem mục 7).
+- Một ngôn ngữ chính, dùng cho cả năm (xem mục 8).
 
 Project Q1: một công cụ dòng lệnh (CLI) có test, ví dụ trình quản lý ghi chú hoặc trình phân tích log.
 
@@ -83,9 +83,59 @@ Các thư mục được tạo khi bắt đầu giai đoạn tương ứng.
 - Ghi chép viết bằng tiếng Việt; code, tên file và tên nhánh viết bằng tiếng Anh.
 - Commit message theo Conventional Commits, ví dụ `feat(q2): add user login API` hoặc `docs(q1): add notes on TCP handshake`.
 - Mỗi project có README riêng gồm: mục đích, cách chạy, cách test, các quyết định thiết kế chính.
-- Cuối mỗi quý, cập nhật bảng tiến độ ở mục 6 và viết một bản tự đánh giá ngắn so với mục tiêu ở mục 1.
+- Cuối mỗi quý, cập nhật bảng tiến độ ở mục 7 và viết một bản tự đánh giá ngắn so với mục tiêu ở mục 1.
 
-## 5. Tài liệu tham khảo
+## 5. Toolkit
+
+Toolkit gom các công cụ dùng trong năm theo nhóm kỹ năng, mỗi nhóm giữ 1–2 công cụ chính. Công cụ phụ thuộc ngôn ngữ chính được chốt sau khi giải quyết mục 8.
+
+### 5.1 Công cụ chung
+
+| Công cụ | Mục đích |
+| --- | --- |
+| VS Code | Editor chính |
+| Linux shell (bash hoặc zsh) | Làm việc với dòng lệnh, viết script tự động hóa |
+| Git, GitHub | Quản lý phiên bản, lưu repo học tập |
+| Markdown | Viết ghi chép trong `notes/` |
+
+### 5.2 Nền tảng khoa học máy tính
+
+| Công cụ | Mục đích |
+| --- | --- |
+| Ngôn ngữ chính và runtime | Giải bài tập, viết project; theo lựa chọn ở mục 8 |
+| Debugger của ngôn ngữ chính | Theo dõi từng bước thực thi, tìm lỗi |
+| `strace`, `htop`, `tcpdump` | Quan sát tiến trình, bộ nhớ và gói tin khi học hệ điều hành và mạng |
+
+### 5.3 Backend và dữ liệu
+
+| Công cụ | Mục đích |
+| --- | --- |
+| PostgreSQL | Database quan hệ chính |
+| Redis | Cache và message queue đơn giản |
+| OpenAPI, Bruno | Đặc tả và gọi thử API |
+| Test framework của ngôn ngữ chính | Unit test, integration test; theo lựa chọn ở mục 8 |
+
+### 5.4 Cloud, DevOps và bảo mật
+
+| Công cụ | Mục đích |
+| --- | --- |
+| Docker, Docker Compose | Đóng gói và chạy service cục bộ |
+| Kubernetes (kind) | Chạy cluster cục bộ để học deploy và scale |
+| Terraform | Khai báo hạ tầng cloud bằng code |
+| GitHub Actions | Pipeline CI/CD |
+| Prometheus, Grafana | Thu thập metrics, dựng dashboard và cảnh báo |
+| Trivy | Quét lỗ hổng trong image và dependency |
+
+### 5.5 AI engineering
+
+| Công cụ | Mục đích |
+| --- | --- |
+| Claude Code | AI coding assistant dùng xuyên suốt năm |
+| Claude API | Gọi LLM trong project, thử tool use và structured output |
+| pgvector | Lưu embedding trên PostgreSQL cho RAG |
+| MCP SDK | Viết MCP server cho agent |
+
+## 6. Tài liệu tham khảo
 
 | Chủ đề | Tài liệu |
 | --- | --- |
@@ -99,14 +149,14 @@ Các thư mục được tạo khi bắt đầu giai đoạn tương ứng.
 | Bảo mật ứng dụng | [OWASP Top 10](https://owasp.org/www-project-top-ten/) |
 | AI engineering | Sách *AI Engineering*, Chip Huyen |
 
-## 6. Tiến độ
+## 7. Tiến độ
 
 - [ ] Q1: Nền tảng khoa học máy tính
 - [ ] Q2: Backend và system design
 - [ ] Q3: Cloud, DevOps và bảo mật
 - [ ] Q4: AI engineering
 
-## 7. Vấn đề mở
+## 8. Vấn đề mở
 
 - [ ] Chọn ngôn ngữ lập trình chính cho cả năm (ví dụ Go, Java, Python hay TypeScript). Người quyết định: chủ repo.
 - [ ] Xác định số giờ học mỗi tuần để kiểm tra các ngưỡng ở mục 1 có khả thi không. Người quyết định: chủ repo.
