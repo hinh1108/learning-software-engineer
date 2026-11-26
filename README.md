@@ -34,11 +34,13 @@ Mỗi mục tiêu gắn với một nhóm kỹ năng và có ngưỡng đạt đ
 
 ## 3. Nhóm kỹ năng
 
-Mỗi nhóm gồm ba phần: kiến thức tiên quyết, nội dung cần học và project. Đánh dấu ô chọn khi đã học xong và có ghi chép trong repo.
+Mỗi nhóm gồm kiến thức tiên quyết, roadmap tham khảo trên [roadmap.sh](https://roadmap.sh), nội dung cần học và project. Roadmap trên roadmap.sh chi tiết hơn nội dung ở đây; dùng chúng để tra cứu khi cần học sâu một chủ đề. Các link được kiểm tra ngày 26/11/2026. Đánh dấu ô chọn khi đã học xong và có ghi chép trong repo.
 
 ### 3.1 Nền tảng khoa học máy tính
 
 Tiên quyết: không có.
+
+Roadmap tham khảo: [Computer Science](https://roadmap.sh/computer-science), [Data Structures & Algorithms](https://roadmap.sh/datastructures-and-algorithms), [Linux](https://roadmap.sh/linux).
 
 - [ ] Cấu trúc dữ liệu: mảng, danh sách liên kết, stack, queue, hash table, cây, heap, đồ thị
 - [ ] Giải thuật: sắp xếp, tìm kiếm, đệ quy, quy hoạch động, duyệt đồ thị
@@ -52,6 +54,8 @@ Project: một công cụ dòng lệnh (CLI) phân tích log, có test. Project 
 
 Tiên quyết: nhóm 1.
 
+Roadmap tham khảo: [Go](https://roadmap.sh/golang), [Java](https://roadmap.sh/java), [Python](https://roadmap.sh/python) hoặc [TypeScript](https://roadmap.sh/typescript) tùy ngôn ngữ chính; [Software Design & Architecture](https://roadmap.sh/software-design-architecture), [Code Review](https://roadmap.sh/code-review), [QA](https://roadmap.sh/qa).
+
 - [ ] Ngôn ngữ chính: cú pháp, hệ thống kiểu, xử lý lỗi, concurrency, quản lý package (xem mục 8)
 - [ ] Clean code và refactoring
 - [ ] Design pattern thường gặp
@@ -62,6 +66,8 @@ Project: viết lại CLI ở nhóm 1 bằng ngôn ngữ chính theo cấu trúc
 ### 3.3 Backend và dữ liệu
 
 Tiên quyết: nhóm 2.
+
+Roadmap tham khảo: [Backend](https://roadmap.sh/backend), [API Design](https://roadmap.sh/api-design), [SQL](https://roadmap.sh/sql), [PostgreSQL](https://roadmap.sh/postgresql-dba), [Redis](https://roadmap.sh/redis), [MongoDB](https://roadmap.sh/mongodb).
 
 - [ ] Thiết kế API: REST, GraphQL, phân trang, versioning, xử lý lỗi
 - [ ] SQL: mô hình dữ liệu, chỉ mục, transaction, mức cô lập
@@ -75,6 +81,8 @@ Project: chuyển CLI thành backend service có API, database và CI.
 
 Tiên quyết: nhóm 3.
 
+Roadmap tham khảo: [System Design](https://roadmap.sh/system-design), [Software Architect](https://roadmap.sh/software-architect).
+
 - [ ] Khả năng mở rộng: scale dọc, scale ngang, cân bằng tải
 - [ ] Dữ liệu phân tán: replication, partitioning, định lý CAP
 - [ ] Tính nhất quán và xử lý lỗi: idempotency, retry, circuit breaker
@@ -85,6 +93,8 @@ Project: 5 bản thiết kế cho các bài toán quen thuộc (rút gọn URL, 
 ### 3.5 Cloud và DevOps
 
 Tiên quyết: nhóm 3.
+
+Roadmap tham khảo: [DevOps](https://roadmap.sh/devops), [Docker](https://roadmap.sh/docker), [Kubernetes](https://roadmap.sh/kubernetes), [Terraform](https://roadmap.sh/terraform), [AWS](https://roadmap.sh/aws).
 
 - [ ] Container: Docker, Docker Compose
 - [ ] Kubernetes ở mức deploy, scale và cấu hình
@@ -98,6 +108,8 @@ Project: deploy service lên cloud, kèm dashboard monitoring và runbook.
 
 Tiên quyết: nhóm 3.
 
+Roadmap tham khảo: [Cyber Security](https://roadmap.sh/cyber-security), [API Security Best Practices](https://roadmap.sh/api-security-best-practices).
+
 - [ ] OWASP Top 10
 - [ ] Xác thực và phân quyền: OAuth 2.0, OpenID Connect, JWT
 - [ ] Quản lý secret và cấu hình
@@ -109,6 +121,8 @@ Project: rà soát bảo mật service, sửa lỗ hổng tìm được và ghi 
 
 Tiên quyết: nhóm 3; nên xong nhóm 5 để deploy được.
 
+Roadmap tham khảo: [AI Engineer](https://roadmap.sh/ai-engineer), [AI Agents](https://roadmap.sh/ai-agents), [Prompt Engineering](https://roadmap.sh/prompt-engineering), [MLOps](https://roadmap.sh/mlops).
+
 - [ ] Nền tảng LLM: token, context window, prompt, structured output, tool use
 - [ ] Retrieval-Augmented Generation (RAG): embedding, vector database, chunking, reranking
 - [ ] Agent: vòng lặp tool use, Model Context Protocol (MCP), giới hạn chi phí và xử lý lỗi
@@ -119,6 +133,8 @@ Project: thêm tính năng hỏi đáp trên log bằng RAG hoặc agent vào se
 ### 3.8 Kỹ năng xuyên suốt
 
 Các kỹ năng này không có thời điểm học riêng mà được dùng trong mọi nhóm.
+
+Roadmap tham khảo: [Git and GitHub](https://roadmap.sh/git-github), [Linux](https://roadmap.sh/linux).
 
 - [ ] Git: branch, rebase, giải quyết xung đột, pull request
 - [ ] Linux shell và viết script tự động hóa
@@ -180,7 +196,7 @@ Mỗi nhóm kỹ năng một thư mục, đánh số theo sơ đồ ở mục 1.
 
 | Nhóm | Tài liệu |
 | --- | --- |
-| Tổng quan | [roadmap.sh](https://roadmap.sh) |
+| Tổng quan | [roadmap.sh](https://roadmap.sh), [Full Stack](https://roadmap.sh/full-stack); roadmap theo từng nhóm được gắn ở mục 3 |
 | 1. Nền tảng | [CS50 (Harvard)](https://cs50.harvard.edu/x/), [NeetCode](https://neetcode.io), [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) |
 | Xuyên suốt | [The Missing Semester of Your CS Education (MIT)](https://missing.csail.mit.edu/) |
 | 3, 4. Backend và system design | Sách *Designing Data-Intensive Applications*, Martin Kleppmann; [System Design Primer](https://github.com/donnemartin/system-design-primer) |
